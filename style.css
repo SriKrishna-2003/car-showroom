@@ -1,0 +1,249 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+
+}
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    color: antiquewhite;
+
+
+}.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}.logo #Logo{
+    max-width: 125px;
+    max-height: 125px;
+    padding-left: 70px;
+
+}.NB{
+    margin: 20px;
+    position:relative;
+    right: 20px;
+}
+.NB nav ul li{
+    padding-right: 35px;
+    padding-left: 40px;
+    font-size: 20px;
+
+}.NB nav ul li a{
+text-decoration: none;
+color: white;    
+}.videopromo {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    height: 650px;
+}
+
+.videopromo video {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+.midbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-align: center; 
+}
+
+#models {
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 18px; 
+}
+
+.modelpage {
+    color: white; 
+    text-decoration: none; 
+    padding-top: 10px; 
+    font-size: 18px; 
+}
+
+.modelpage:hover {
+    color: grey;
+}.models{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.Models .rem-div p#recomendation{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}.Models img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}.image-overlay{
+    display: flex;
+    flex-direction: column;
+}
+p.text-overlay{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 80px;
+}.assist p#assist{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}p#am-assist{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}button#learn-more{
+   margin-left: 43%;
+    background-color: white;
+    height: 40px;
+    width: 200px;
+    color: black;
+
+}button#learn-more a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bolder;
+}.text-overlay{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    bottom: 100px;
+    left: 30px;
+    display: inline;
+    width: 30px;
+    
+}.services{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 15px;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}.test-drive{
+    margin-left: 40px;
+    padding-right: 150px;
+    overflow: hidden;
+}
+p#text{
+    display: inline;
+}p#td{
+    color: white;
+    font-size: 30px;
+
+}img#test-drive{
+    max-width: 550px;
+    max-height: 700px;
+    border-radius: 10px;
+}div#test-text{
+    text-align: center;
+}.racing{
+    margin-right: 10px;
+    padding-left: 170px;
+    overflow: hidden;
+}
+img#racing{
+    max-width: 1920px;
+    max-height: 720px;
+    height: 309px;
+    width: 550x;
+    border-radius: 10px;
+   
+}div#rac-text{
+    text-align: center;
+}p#rt{
+    color: white;
+    font-size: 30px;
+}.pre-owned{
+    overflow: hidden;
+    margin-left: 40px;
+    padding-right: 150px ;
+}
+video#pre-owned{
+    max-width: 1920;
+    max-height: 720px;
+    height: 309px;
+    width: 550px;
+    border-radius: 10px;
+}div#pre-text{
+    text-align: center;
+}p#pt{
+    color: white;
+    font-size: 30px;
+}.our-models{
+    overflow: hidden;
+    margin-right: 40px;
+    padding-left: 150px ;
+}img#Our-models{
+    max-width: 550px;
+    max-height: 600px;
+    border-radius: 10px;
+}div#mod-text{
+    text-align: center;
+}p#ot{
+    color: white;
+    font-size: 30px;
+}footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}div#footer{
+    display: flex;
+    flex-direction: row;
+}
+ul#foot-list li{
+    color: white;
+
+}ul#foot-list{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+
+}div#links nav#footer ul#foot-list a{
+    color: white;
+}div#links nav#footer ul#foot-list a#models{
+    text-decoration: none;
+    font-size: 30px;
+}ul#po-list{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}div#links nav#footer ul#foot-list a#models{
+    text-decoration: none;
+    font-size: 30px;
+}.pre-cars{
+    text-align: center;
+}a#pre-owned-cars{
+    color: black;
+}a#apprved{
+    color: white;
+
+}a#dealers{
+    color: black;
+}
+
+
